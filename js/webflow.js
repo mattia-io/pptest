@@ -38,5 +38,8 @@ t.exports=function(t){if(!t.support.cors&&t.ajaxTransport&&window.XDomainRequest
  * Webflow: Interactions: Init
  */
 Webflow.require('ix').init([
-  {"slug":"reveal-faq","name":"reveal FAQ","value":{"style":{},"triggers":[{"type":"click","selector":".paragraph-answer","siblings":true,"preserve3d":true,"stepsA":[{"display":"block","opacity":0,"x":"0px","y":"-5px","z":"0px"},{"display":"block","opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"5px","z":"0px"}],"stepsB":[{"opacity":0,"transition":"transform 200 ease 0, opacity 200 ease 0","x":"0px","y":"0px","z":"0px"},{"display":"none"}]}]}}
+  {"slug":"reveal-faq","name":"reveal FAQ","value":{"style":{},"triggers":[{"type":"click","selector":".paragraph-answer","siblings":true,"preserve3d":true,"stepsA":[{"display":"block","opacity":0,"x":"0px","y":"-5px","z":"0px"},{"display":"block","opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"5px","z":"0px"}],"stepsB":[{"opacity":0,"transition":"transform 200 ease 0, opacity 200 ease 0","x":"0px","y":"0px","z":"0px"},{"display":"none"}]}]}},
+  {"slug":"openlopenmodal","name":"openlopenmodal","value":{"style":{},"triggers":[{"type":"click","selector":".modal","preserve3d":true,"stepsA":[{"transition":"transform 200 ease 0","x":"0px","y":"10px","z":"0px"},{"display":"block","opacity":1,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"-10px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"closemodal","name":"closemodal","value":{"style":{},"triggers":[{"type":"click","selector":".modal","preserve3d":true,"stepsA":[{"opacity":0,"transition":"opacity 200 ease 0, transform 200 ease 0","x":"0px","y":"10px","z":"0px"},{"display":"none"}],"stepsB":[]}]}},
+  {"slug":"appear-bijen","name":"appear-bijen","value":{"style":{},"triggers":[{"type":"hover","selector":".img-bjrnkof","stepsA":[{"display":"block","opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}}
 ]);

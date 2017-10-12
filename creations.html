@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Oct 08 2017 10:50:09 GMT+0000 (UTC)  -->
+<!--  Last Published: Thu Oct 12 2017 09:03:17 GMT+0000 (UTC)  -->
 <html data-wf-page="59d8a862aaa78100013ea36b" data-wf-site="599fedc89e639a0001caca41">
 <head>
   <meta charset="utf-8">
@@ -21,16 +21,23 @@
 html {font-size: 62.5%!important;}
 w-webflow-badge {display: none!important; opacity: 0!important;}
 </style>
-  <style>
-lightwidget__link {border-radius: 3px;}
-lightwidget__tile {border-radius: 3px;}
-lightwidget__link {border-radius: 3px;}
-lightwidget__photo {border-radius: 3px;}
-lightwidget__image-wrapper {border-radius: 3px;}
-lightwidget__image {border-radius: 3px;}
-</style>
+  <script type="text/javascript" src="./js/jquery-1.6.1.min.js"></script>
+  <script type="text/javascript" src="./js/jquery-embedagram.pack.js"></script>
+  <script type="text/javascript">
+        $(document).ready(function() {
+            $('#slideshow').embedagram({
+                instagram_id: <realpreciousplastic>
+            });
+        });
+    </script>
 </head>
 <body class="body">
+  <div class="modal">
+    <div class="main-container"><img src="images/otherby.gif" class="other-projects-by"><img src="images/close.gif" width="90.5" data-ix="closemodal" class="closing-x">
+      <div class="other-projects-wrapper"><a href="http://&lt;a href=&quot;https://phonebloks.com&quot;&gt; &lt;img src=&quot;/assets/images/phonebloks.gif&quot;&gt; &lt;/a&gt;" target="_blank" class="link-project w-inline-block"><img src="images/phonebloks.gif" class="project"></a><a href="https://preciousplastic.com" target="_blank" class="link-project w-inline-block"><img src="images/preciousplastic.gif" class="pp project"></a><a href="https://story-hopper.com" target="_blank" class="link-project w-inline-block"><img src="images/storyhopper.gif" class="project"></a></div>
+      <div class="div-social-dave"><a href="http://www.facebook.com/davehakkens" target="_blank" class="link-social-dave w-inline-block"><img src="images/social_icon_facebook_.gif" class="gif-social"></a><a href="http://www.instagram.com/davehakkens" target="_blank" class="link-social-dave w-inline-block"><img src="images/social_icon_instagram_.gif" class="gif-social"></a><a href="http://www.twitter.com/davehakkens" target="_blank" class="link-social-dave w-inline-block"><img src="images/social_icon_twitter_.gif" class="gif-social"></a><a href="https://davehakkens.nl/mailinglist/" target="_blank" class="link-social-dave w-inline-block"><img src="images/social_icon_mailinglist.gif" class="gif-social"></a><a target="_blank" href="https://davehakkens.nl/community/forums/" class="link-social-dave w-inline-block"><img src="images/social_icon_community_.gif" class="gif-social"></a></div>
+    </div>
+  </div>
   <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar transparent w-nav">
     <div class="main-container">
       <div class="flex-wrapper-navbar">
@@ -94,25 +101,47 @@ lightwidget__image {border-radius: 3px;}
       <p class="paragraph-categories">Start producing your own building material from unused plastic around you. Make beams and bricks using our techniques and machines and start building your future creation.</p>
     </div><img src="images/construction-mobile.jpg" srcset="images/construction-mobile-p-500.jpeg 500w, images/construction-mobile.jpg 700w" sizes="100vw"></div>
   <div class="creations-context">
-    <h1 class="h2-creations">Shifting to a world where Plastic is Precious, <br>again and again!</h1>
-    <div class="div-contenxt mobile shop">
-      <div class="main-container">
-        <h3 class="h3-categories shop">Create your shop</h3>
-      </div>
-    </div>
+    <div class="white-div"></div>
     <div class="div-contenxt mobile tiles">
       <div class="main-container w-clearfix">
-        <h3 class="h3-categories tiles">Play modular</h3>
+        <div class="modular-box">
+          <h3 class="h3-categories tiles">Play it modular</h3>
+          <p class="paragraph-creations">Start creating modular products that allow you to think bigger, beyond the machines. This gives space to unique patterns that will surprise you each time.</p>
+        </div>
       </div>
     </div>
     <div class="desk div-contenxt mobile">
       <div class="main-container">
-        <h3 class="desk h3-categories">Craft your home</h3>
+        <div class="desk-box">
+          <h3 class="desk h3-categories">Craft your home</h3>
+          <p class="paragraph-creations">You can make colourful, iconic and most importantly valuable creations for your home from unused plastic.</p>
+        </div>
+      </div>
+    </div>
+    <div class="div-contenxt precise">
+      <div class="main-container w-clearfix">
+        <div class="precis-box">
+          <div class="precision-box">
+            <h3 class="h3-categories precise">High precision</h3>
+            <p class="paragraph-creations white">Take it to the next level. Create super precise and detailed moulds to make outstanding products for your buyers.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="div-contenxt functional">
       <div class="main-container">
-        <h3 class="functional h3-categories">Make it functional</h3>
+        <div class="functional-box">
+          <h3 class="functional h3-categories">Make it functional</h3>
+          <p class="paragraph-creations">Get the most out of plastic&#x27;s strength &amp; durability and create functional products or objects for your day to day life.</p>
+        </div>
+      </div>
+    </div>
+    <div class="div-contenxt mobile shop">
+      <div class="main-container">
+        <div class="box-shop">
+          <h3 class="h3-categories shop">Create your shop</h3>
+          <p class="paragraph-creations">Create your little plastic recycling shop with a wide and exciting variety of products, colours, textures and styles to fit different people around the world.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -120,13 +149,15 @@ lightwidget__image {border-radius: 3px;}
     <div class="main-container">
       <h1 class="community-creation h2-creations">Community creations</h1>
       <div class="embedd-instagram w-embed w-iframe w-script">
-        <script src="https://lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://lightwidget.com/widgets/50d7765d9d1e5183bab0afee0625fca9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; round-border:3px; overflow: hidden;"></iframe></div>
+        <!--  LightWidget WIDGET  -->
+        <script src="https://lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://lightwidget.com/widgets/6629c8909dd454fa931cc4b0f1ee7df8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe></div>
     </div>
   </div>
   <div class="instagram-feed-mobile">
     <div class="main-container">
       <h1 class="community-creation h2-creations">Community creations</h1>
       <div class="embedd-instagram w-embed w-iframe w-script">
+        <!--  LightWidget WIDGET  -->
         <script src="https://lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://lightwidget.com/widgets/4d247872049a5674b9a1095ca2275d7b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; round-border:3px; overflow: hidden;"></iframe></div>
     </div>
   </div>
@@ -138,7 +169,7 @@ lightwidget__image {border-radius: 3px;}
         <div class="cta-video-wrapper"><a href="en/videos/create.html" class="link-video-cta w-inline-block"><img src="images/Thumb-creations-1.jpg" width="300" class="video-img-cta"></a>
           <h5 class="h6-video-cta">Start with the basics</h5>
         </div>
-        <div class="cta-video-wrapper"><a href="en/videos/create-2/techniques.html" class="link-video-cta w-inline-block"><img src="images/Thumb-creations-2.jpg" width="300" srcset="images/Thumb-creations-2-p-800.jpeg 800w, images/Thumb-creations-2.jpg 1000w" sizes="(max-width: 479px) 74vw, (max-width: 767px) 27vw, 22vw" class="video-img-cta"></a>
+        <div class="cta-video-wrapper"><a href="en/videos/create-2/techniques.html" class="link-video-cta w-inline-block"><img src="images/Thumb-creations-2.jpg" width="300" srcset="images/Thumb-creations-2-p-800.jpeg 800w, images/Thumb-creations-2.jpg 1000w" sizes="(max-width: 479px) 74vw, (max-width: 767px) 27vw, (max-width: 991px) 21vw, 22vw" class="video-img-cta"></a>
           <h5 class="h6-video-cta">Learn from us</h5>
         </div>
         <div class="cta-video-wrapper"><a href="en/videos/create-2/creations.html" class="link-video-cta w-inline-block"><img src="images/Thumb-creations-3.jpg" width="300" class="video-img-cta"></a>
@@ -154,8 +185,10 @@ lightwidget__image {border-radius: 3px;}
     </div>
   </div>
   <div class="footer">
-    <div class="main-container"><img src="images/flag_color.svg" width="100" class="logo-footer">
-      <div class="footer-wrapper"><a href="info/about.html" class="link-footer">About</a><a href="en/videos/questions.html" class="link-footer">FAQ</a><a href="info/help-us.html" class="link-footer">Help us</a><a href="info/thanks.html" class="link-footer">Thanks</a><a href="info/terms.html" class="link-footer">Terms</a><a href="info/contacts.html" class="link-footer">Contacts</a><a href="https://davehakkens.nl/community/forums/" target="_blank" class="link-footer">Forums</a><a href="https://davehakkens.nl/donate/preciousplastic/" target="_blank" class="link-footer">Donate</a></div><img src="images/by.gif" width="250" class="image"></div>
+    <div class="main-container"><img src="images/flag_color.svg" width="100" class="logo-footer"><img src="images/Name_white.png" width="150" srcset="images/Name_white-p-500.png 500w, images/Name_white-p-800.png 800w, images/Name_white-p-1080.png 1080w, images/Name_white-p-1600.png 1600w, images/Name_white.png 2704w" sizes="150px" class="logotype">
+      <div class="footer-wrapper"><a href="info/about.html" class="link-footer">About</a><a href="en/videos/questions.html" class="link-footer">FAQ</a><a href="info/help-us.html" class="link-footer">Help us</a><a href="info/thanks.html" class="link-footer">Thanks</a><a href="info/terms.html" class="link-footer">Terms</a><a href="info/contacts.html" class="link-footer">Contacts</a><a href="https://davehakkens.nl/community/forums/" target="_blank" class="link-footer">Forums</a><a href="https://davehakkens.nl/donate/preciousplastic/" target="_blank" class="link-footer">Donate</a></div>
+      <div class="project-by-wrapper"><a href="#" class="project-by-dave w-inline-block"><img src="images/by.gif" width="250" data-ix="openlopenmodal" class="project-by"></a></div>
+    </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
