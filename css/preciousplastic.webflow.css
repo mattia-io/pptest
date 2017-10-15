@@ -724,7 +724,7 @@
   background-color: #b7c5ce;
   color: #484b4d;
   font-size: 20px;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 .btn-next-chapter:hover {
@@ -1907,6 +1907,7 @@
   padding: 20px 50px;
   border-radius: 3px;
   background-color: #fff;
+  text-decoration: none;
 }
 
 .btn.btn-add {
@@ -3355,6 +3356,7 @@
   background-image: url('../images/Intro-creations.jpg');
   background-position: 50% 100%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .h1-creations {
@@ -3550,6 +3552,7 @@
   background-image: url('../images/jewelery.jpg');
   background-position: 50% 100%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .h3-categories {
