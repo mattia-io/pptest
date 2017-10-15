@@ -4668,12 +4668,13 @@
   text-align: center;
 }
 
-.image-4 {
+.we-dont-like-waste {
   display: block;
   width: 70%;
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 1000px;
 }
 
 .launch-video {
@@ -6229,6 +6230,13 @@
   }
   .start-arrow {
     margin-right: -35%;
+  }
+  .we-dont-like-waste {
+    display: block;
+    width: 90%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
